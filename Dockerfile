@@ -1,3 +1,3 @@
-FROM 	httpd:latest
-COPY 	index.html /usr/local/apache2/htdocs
+FROM ngnix
+COPY index.html /usr/share/nginx/html/
 EXPOSE 	80
